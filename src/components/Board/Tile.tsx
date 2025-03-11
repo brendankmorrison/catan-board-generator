@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function NumberTile({
+export default function Tile({
   label,
   size,
   image_path,
@@ -15,7 +15,7 @@ export default function NumberTile({
       alt='Description'
       width={size}
       height={size}
-      className='absolute translate-x-6 translate-y-8 z-10'
+      className='relative'
     />
   )
 }

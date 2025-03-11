@@ -1,3 +1,3 @@
-export { default as Board } from "./Board";
-export { default as HexTile } from "./HexTile";
-export { default as NumberTile } from "./NumberTile";
+export { default as Board } from './Board'
+export { default as Tile } from './Tile'
+export { default as NumberTile } from './NumberTile'
